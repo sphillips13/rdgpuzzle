@@ -3,6 +3,13 @@
 // up as you fill the bucket. Calculate how many distinct ways you can use the measuring cups to fill 
 // the bucket. 
 
+//1-> (1 - 1) + (1 - 2)
+//2-> (2 - 1) + (2 - 2)
+//3-> (3 - 1) + (3 - 2)
+//4-> (4 - 1) + (4 - 2)
+
+//n = 4
+
 using System;
 
 class rdg
@@ -29,52 +36,43 @@ class rdg
         Console.WriteLine("Test Case 4: " + numOfWaysToFillBucket);
 
         // Test Case 5
-        numOfWaysToFillBucket = FillTheBucket(50);
+        numOfWaysToFillBucket = FillTheBucket(51);
         Console.WriteLine("Test Case 5: " + numOfWaysToFillBucket);
 
         // Test Case 6
-        numOfWaysToFillBucket = FillTheBucket(50);
+        numOfWaysToFillBucket = FillTheBucket(5);
         Console.WriteLine("Test Case 6: " + numOfWaysToFillBucket);
     }
 
     public static int FillTheBucket(int bucketSize)
     {
-        List<int> numbers = new List<int>() { 1, 2 };
-        HashSet<string> permutations = new HashSet<string>();
-        string oneCup = "1";
-        string twoCup = "2";
-
-        sum_up_recursive(numbers, bucketSize, new List<int>());
-        //for(int i = 0; i <= bucketSize; i++)
-        //{
-
-        //}
-
-
-
-        return permutations.Count();
+        if (bucketSize >= 1 && bucketSize <= 50)
+            return countWays(bucketSize);
+            //return countWays(bucketSize + 1);
+        else
+            return 0;
     }
 
-    private static void sum_up_recursive(List<int> numbers, int target, List<int> partial)
+    public static int countWays(int n)
     {
-        int s = 0;
-        foreach (int x in partial) s += x;
+        if (n == 0)
+            return 0;
 
-        if (s == target)
-            Console.WriteLine("sum(" + string.Join(",", partial.ToArray()) + ")=" + target);
+        int[] cup = new int[n + 5];
+        cup[1] = 1;
+        cup[2] = 2;
 
-        if (s >= target)
-            return;
-
-        for (int i = 0; i < numbers.Count; i++)
+        for (int i = 3; i <= n; i++)
         {
-            List<int> remaining = new List<int>();
-            int n = numbers[i];
-            for (int j = i + 1; j < numbers.Count; j++) remaining.Add(numbers[j]);
-
-            List<int> partial_rec = new List<int>(partial);
-            partial_rec.Add(n);
-            sum_up_recursive(remaining, target, partial_rec);
+            cup[i] = cup[i - 1] + cup[i - 2];
         }
+
+        return cup[n]; 
+
+
+        //if (n <= 1)
+        //    return n;
+        //return countWays(n - 1) + countWays(n - 2);
     }
+
 }

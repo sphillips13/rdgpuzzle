@@ -13,3 +13,18 @@ C:\Users\shawn\Documents\Outta Ram\rdgpuzzle\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\D
 C:\Users\shawn\Documents\Outta Ram\rdgpuzzle\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.pdb
 C:\Users\shawn\Documents\Outta Ram\rdgpuzzle\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.genruntimeconfig.cache
 C:\Users\shawn\Documents\Outta Ram\rdgpuzzle\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\ref\rdgpuzzle.dll
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.csproj.AssemblyReference.cache
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.AssemblyInfoInputs.cache
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.AssemblyInfo.cs
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.csproj.CoreCompileInputs.cache
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\bin\Debug\net6.0\rdgpuzzle.exe
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\bin\Debug\net6.0\rdgpuzzle.deps.json
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\bin\Debug\net6.0\rdgpuzzle.runtimeconfig.json
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\bin\Debug\net6.0\rdgpuzzle.dll
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\bin\Debug\net6.0\rdgpuzzle.pdb
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.dll
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\refint\rdgpuzzle.dll
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.pdb
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\rdgpuzzle.genruntimeconfig.cache
+C:\Users\shawn\OneDrive\Documents\Dev\rdgpuzzle\rdgpuzzle\rdgpuzzle\obj\Debug\net6.0\ref\rdgpuzzle.dll
