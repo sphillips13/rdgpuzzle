@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rdgpuzzle", "rdgpuzzle\rdgpuzzle.csproj", "{5DB0DB9A-792C-42BA-A7A0-25E8B456DC25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DB0DB9A-792C-42BA-A7A0-25E8B456DC25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB0DB9A-792C-42BA-A7A0-25E8B456DC25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB0DB9A-792C-42BA-A7A0-25E8B456DC25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB0DB9A-792C-42BA-A7A0-25E8B456DC25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7714D96-C61E-45CB-A1C9-66F1FEFBFE94}
+	EndGlobalSection
+EndGlobal
